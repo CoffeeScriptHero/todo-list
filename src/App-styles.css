@@ -1,0 +1,27 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto";
+}
+.App {
+  width: 700px;
+  height: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+button {
+  font-family: "Roboto";
+}
+.todo-blue-button {
+  background: #16a3b7;
+  width: 200px;
+  height: 33px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+.disabled-button {
+  opacity: 0.5;
+  cursor: default;
+}

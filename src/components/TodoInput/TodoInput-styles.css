@@ -1,0 +1,39 @@
+.todo-form {
+  padding: 15px;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 5px;
+}
+.input-label {
+  position: relative;
+  display: flex;
+  height: 30px;
+  padding-left: 30px;
+  background: #16a3b7;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 5px;
+}
+.label-img {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  transform: translate(-50%, 50%);
+}
+.text-input {
+  font-family: "Lato";
+  padding: 0 0 0 15px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 1px solid rgb(226, 226, 226);
+  flex-grow: 1;
+}
+.text-input::placeholder {
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.submit-button {
+  width: 100%;
+  margin: 30px 0 0 0;
+}

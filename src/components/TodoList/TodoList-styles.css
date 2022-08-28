@@ -1,0 +1,40 @@
+.todo-title {
+  text-align: center;
+}
+.show-buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.todo-tasks-list {
+  padding: 0;
+  list-style: none;
+  max-height: 320px;
+  padding-right: 3px;
+  overflow: auto;
+  scrollbar-width: thin;
+  margin: 40px 0 30px 0;
+}
+.del-buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.todo-del-button {
+  background: #db3345;
+  width: 330px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+.no-content {
+  color: rgb(203, 202, 202);
+  font-size: 24px;
+  text-align: center;
+  margin-top: 46.5px;
+  margin-bottom: 46.5px;
+}
+.active {
+  background: #187f8d;
+  color: rgb(231, 231, 231);
+}
